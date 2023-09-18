@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family-Poppins");
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size:22px;
+  padding-right:80px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+body{
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.main{
+display:flex;
+}
+.left{
+padding-top:250px;
+padding-left:100px;
+width:40%;
+}
+img{
+  height: 680px;
+  width: 680px;
+}
+.M{
+font-size:50px;
+}
+.k{
+font-size:35px;
+}
+
+.search-container{
+background: linear-gradient(to right, #d3cce3, #e9e4f0);
+width:350px;
+height:40px;
+border-radius: 20px;
+display:flex;
+}
